@@ -43,7 +43,7 @@ print(f"Greatest Increase in Profits: {month_count[month_increase]} (${(str(incr
 print(f"Greatest Decrease in Profits: {month_count[month_decrease]} (${(str(decrease))})")     
 
 # Write results to a .txt file 
-output = os.path.join(".", 'output.txt')
+output = os.path.join("analysis", 'output.txt')
 with open(output,"w") as new:
     new.write("  Financial Analysis")
     new.write("\n")
